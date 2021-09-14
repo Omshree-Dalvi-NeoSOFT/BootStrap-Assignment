@@ -1,0 +1,239 @@
+.image {
+  opacity: 0.5;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 600px;
+}
+.carousel-caption {
+  top: 30%;
+  bottom: auto;
+}
+.carousel-caption h3 {
+  color: black;
+  margin-top: 15px;
+  font-size: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.carousel-caption p {
+  color: black;
+  font-size: 25px;
+}
+.hr1 {
+  width: 40%;
+  height: 2px;
+  margin-left: 0;
+}
+.hr2 {
+  width: 20%;
+  height: 2px;
+  margin-left: 0;
+}
+.wi button {
+  width: 32%;
+  border-radius: 0%;
+}
+
+
+
+.feature,
+.breadcrumb {
+  font-family: cursive;
+}
+.breadcrumb-item a {
+  color: black;
+}
+.breadcrumb-item a .active {
+  color: brown;
+}
+.divider {
+  /* minor cosmetics */
+  display: table;
+  font-size: 20px;
+  text-align: center;
+  width: 55%; /* divider width */
+  margin: 5px auto; /* spacing above/below */
+}
+.divider span {
+  display: table-cell;
+  position: relative;
+}
+.divider span:first-child,
+.divider span:last-child {
+  width: 50%;
+  top: 15px; /* adjust vertical align */
+  -moz-background-size: 100% 2px; /* line width */
+  background-size: 100% 2px; /* line width */
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+}
+.divider span:first-child {
+  /* color changes in here */
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(transparent),
+    to(#000)
+  );
+  background-image: -webkit-linear-gradient(180deg, transparent, #000);
+  background-image: -moz-linear-gradient(180deg, transparent, #000);
+  background-image: -o-linear-gradient(180deg, transparent, #000);
+  background-image: linear-gradient(90deg, transparent, #000);
+}
+.divider span:nth-child(2) {
+  color: #000;
+  padding: 0px 5px;
+  width: auto;
+  white-space: nowrap;
+}
+.divider span:last-child {
+  /* color changes in here */
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(#000),
+    to(transparent)
+  );
+  background-image: -webkit-linear-gradient(180deg, #000, transparent);
+  background-image: -moz-linear-gradient(180deg, #000, transparent);
+  background-image: -o-linear-gradient(180deg, #000, transparent);
+  background-image: linear-gradient(90deg, #000, transparent);
+}
+.deal {
+  height: 480px;
+}
+
+.wrapper {
+  height: 440px;
+  width: 100%;
+  margin: 0px auto;
+  border-radius: 7px 7px 7px 7px;
+  /* VIA CSS MATIC https://goo.gl/cIbnS */
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+  float: left;
+  height: 100%;
+  width: 45%;
+}
+
+.product-img img {
+  border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+  float: right;
+  height: 100%;
+  width: 55%;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.product-text {
+  height: 100%;
+  width: 100%;
+}
+
+.product-text h1 {
+  margin: 0 0 0 38px;
+  font-size: 40px;
+  color: #474747;
+}
+.product-text h6 {
+  margin-top: 10px;
+}
+
+.product-text h3,
+h6 {
+  margin: 0 0 0 38px;
+  overflow: hidden;
+  font-size: 20px;
+  color: #474747;
+}
+.product-text h1 {
+  font-family: "Bentham", serif;
+}
+
+.product-text h2 {
+  margin: 0 0 47px 38px;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  letter-spacing: 0.2em;
+}
+
+.product-text p {
+  height: 100px;
+  margin: 0 0 0 38px;
+  font-family: "Playfair Display", serif;
+  color: #8d8d8d;
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+span {
+  margin-top: 2px;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+}
+
+.size {
+  border: 1px solid black;
+  background-color: blue;
+  color: #ffffff;
+  width: 10px;
+}
+
+hr.style2 {
+  border-top: 3px double #888686bb;
+}
+.ftbg {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(177, 179, 182, 0.52),
+      rgb(0, 0, 0)
+    ),
+    url("../Photo/footerbackground.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+}
+.timer {
+  margin-left: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption h3 {
+    font-size: 40px;
+  }
+  .instagall .last img {
+    display: none;
+  }
+  .instagall .secondlast img {
+    width: 240px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .wrapper .product-img {
+    display: none;
+    width: 30%;
+  }
+  .wrapper .product-info {
+    width: 100%;
+  }
+  .timer {
+    margin-left: 15px;
+  }
+  .sellers {
+    margin-left: 25px;
+  }
+}
